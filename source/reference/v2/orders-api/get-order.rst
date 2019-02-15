@@ -551,7 +551,7 @@ Example
 
       mollie_client = Client()
       mollie_client.set_api_key('test_dHar4XY7LxsDOtmnkVtjNVWXLSlXsM')
-      order = mollie_client.orders.get('ord_stTC2WHAuS')
+      order = mollie_client.orders.get('ord_kEn1PlbGa')
 
 Response
 ^^^^^^^^
@@ -603,7 +603,7 @@ Response
             {
                 "resource": "orderline",
                 "id": "odl_dgtxyl",
-                "orderId": "ord_pbjz8x",
+                "orderId": "ord_kEn1PlbGa",
                 "name": "LEGO 42083 Bugatti Chiron",
                 "sku": "5702016116977",
                 "type": "physical",
@@ -660,7 +660,7 @@ Response
             {
                 "resource": "orderline",
                 "id": "odl_jp31jz",
-                "orderId": "ord_pbjz8x",
+                "orderId": "ord_kEn1PlbGa",
                 "name": "LEGO 42056 Porsche 911 GT3 RS",
                 "sku": "5702015594028",
                 "type": "physical",
@@ -751,7 +751,7 @@ Response
         },
         "_links": {
             "self": {
-                "href": "https://api.mollie.com/v2/orders/ord_pbjz8x",
+                "href": "https://api.mollie.com/v2/orders/ord_kEn1PlbGa",
                 "type": "application/hal+json"
             },
             "checkout": {
